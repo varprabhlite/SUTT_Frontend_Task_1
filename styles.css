@@ -1,10 +1,9 @@
-*{
-  margin: 0;
-  font-family: Inter, sans-serif;
-}
-
-header{
+.sticky-header{
   position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  width: 100%;
 }
 
 .navigation-bar{
@@ -17,7 +16,7 @@ header{
 }
 
 .navigation-item{
-  font-weight: 640;
+  font-weight: 600;
   font-size: 16px;
   padding:12px;
   transition: background-color 0.2s;
@@ -60,6 +59,11 @@ header{
   cursor:pointer;
 }
 
+.right-navigation .profile-icon{
+  content: url(images/pre-profile-logo.svg);
+  transition: content 0.2s;
+}
+
 .sign-in{
   margin-left: 6px;
 }
@@ -67,5 +71,13 @@ header{
 .right-navigation:hover{
   background-color: #002E6E;
 }
+
+.right-navigation:hover .profile-icon{
+  content: url(images/post-profile-logo.svg);
+}
+
+
+
+
 
 
