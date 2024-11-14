@@ -2,15 +2,16 @@
 <html>
   <head>
     <title>Paytm clone</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="general.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div>
-      <header>
+      <header class="sticky-header">
         <div class="navigation-bar">
           <div class="paytm-logo">
             <a class="paytm-link" href="paytm_clone.html">
@@ -28,22 +29,62 @@
 
           <div class="right-navigation">
               <span class="sign-in">Sign In</span>
-              <img src="images/pre-profile-logo.svg" class="pre-icon">
+              <img class="profile-icon" src="SUTTimages/pre-profile-logo.svg">
           </div>
-
-
         </div>
-
       </header>
 
       <main>
+        <div class="recharge-and-pay">
+          <div class="recharge-title">
+            <h1>Recharge & Pay Bills on Paytm.</h1>
+          </div>
+
+          <div class="box-collection">
+            <a class="ind-box" href="https://paytm.com/recharge">
+              <img src="images/mobile-icon.png" class="services-icon">
+              <span class="services"><span class="pay">Recharge</span> <br> Prepaid <br> Mobile ></span>
+            </a>
+
+            <a class="ind-box" href="https://paytm.com/electricity-bill-payment">
+              <img src="images/electricity-bill-icon.png" class="services-icon">
+              <span class="services"><span class="pay">Pay</span> <br> Electricity <br> Bill ></span>
+            </a>
+
+            <a class="ind-box" href="https://paytm.com/dth-recharge">
+              <img src="images/dth-connection-icon.png" class="services-icon">
+              <span class="services"><span class="pay">Recharge</span> <br> DTH <br> Connection ></span>
+            </a>
+            
+            <a class="ind-box" href="https://paytm.com/cylinder-gas-recharge">
+              <img src="images/gas-cylinder-icon.png" class="services-icon">
+              
+              <span class="services"><span class="pay">Book</span> <br> Gas <br> Cylinder ></span>
+            </a>
+
+            <a class="ind-box" href="https://paytm.com/broadband-bill-payment">
+              <img src="images/broadband-icon.png" class="services-icon">
+              <span class="services"><span class="pay">Pay</span> <br> Broadband & <br> Landline Bill ></span>
+            </a>
+
+            <a class="ind-box" href="https://paytm.com/education">
+              <img src="images/education-icon.png" class="services-icon">
+              <span class="services"><span class="pay">Pay</span> <br> Education <br> Fee ></span>
+            </a>
+
+            <div class="ind-box">
+              <img src="images/all-payment-services-icon.png" class="services-icon">
+              <span class="services">All <br> Payment <br> Services ></span>
+            </div>
+
+          </div>
+        </div>
 
       </main>
 
       <footer>
 
       </footer>
-    </div>
   </body>
   
 </html>
