@@ -1,0 +1,65 @@
+.recharge-and-pay {
+  height: auto;
+  width: 100%;
+  background-color: #00baf2;
+  padding: 60px 0;
+}
+
+.recharge-title {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px 40px 32px;
+}
+
+.recharge-title h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+}
+
+.box-collection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 32px;
+}
+
+.ind-box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  min-width: 140px;
+  max-width: 160px;
+  padding: 16px 8px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.ind-box:hover {
+  background-color: rgba(22, 22, 22, 0.1);
+}
+
+.services-icon {
+  height: 64px;
+  width: 64px;
+  margin-bottom: 16px;
+}
+
+.services {
+  font-size: 17px;
+  line-height: 1.3;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.pay {
+  font-weight: 500;
+}
