@@ -146,7 +146,7 @@
   content:url(images/pre-playstore-logo.png);
   height: 14px;
   width: 12px;
-  margin-left: 8px  ;
+  margin-left: 8px;
 }
 
 .download-button:hover .playstore-logo{
@@ -211,5 +211,86 @@
   text-decoration: none;
   padding: 20px 0px;
 
+}
+
+.credit-card{
+  height: 900px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  background-color: rgba(234, 240, 243, 0.518);
+}
+
+.hdfc-card{
+  height:628PX;
+  width: 430px;
+  padding: 70px 64px 0px;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-left: 130px;
+}
+
+.hdfc-card h1{
+  padding: 24px 0 0;
+  font-size: 40px;
+}
+
+.sbi-card{
+  height: 628px;
+  width: 430px;
+  padding: 70px 64px 0px;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-right:130px;
+}
+
+.sbi-card h1{
+  padding: 20px 0 0;
+  font-size: 40px;
+}
+
+.paytm-hdfc-logo{
+  height: 75px;
+  width: auto;
+}
+
+.hdfc-card-image{
+  height: 288px;
+  width: auto;
+}
+
+.sbi-card-image{
+  height: 299px;
+  width: 460px;
+}
+
+.paytm-sbi-logo{
+  height: 18px;
+  width: auto;
+  padding: 50px 0 0;
+}
+
+.card-boast{
+  font-size: 20px;
+  padding: 25px 0 0;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.extra-info{
+  font-size: 12px;
+  padding: 12px 0 10px;
+  color: rgb(113, 113, 113);
+  
+}
+
+.know-more{
+  color: #00baf2;
+  font-weight: bold;
 }
 
